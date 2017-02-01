@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Ljubičice</title>
-    <link>//ljubichice.github.io/work/</link>
+    <link>//ljubichice.github.io/work/index.xml</link>
     <description>Recent content in Works on Ljubičice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
