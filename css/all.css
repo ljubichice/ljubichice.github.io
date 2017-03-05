@@ -1454,3 +1454,7 @@ header {
     min-height: 100px;
   }
 }
+
+#newsflash a {
+  margin: 10px;
+}
