@@ -612,13 +612,13 @@ header, footer {
 
 header {
   /*background-position: 50% 50%;*/
-  background-image: url(../img/zajedno2.png);
+  background-image: url(../img/bgd.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   padding-bottom: 50px;
-  min-height: 60vh;
+  min-height: 90vh;
   padding-top: 30px;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 
  }
   header .logo {
@@ -659,7 +659,8 @@ header {
 
 @media (max-width: 640px) {
   header {
-    background-position: 50% 20px, 50% 50%; }
+    /* background-position: 50% 20px, 50% 50%;  */
+  }
     header nav {
       float: none;
       text-align: center;
@@ -790,12 +791,21 @@ footer {
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
 .blurb {
-  max-width: 620px;
+  max-width: 720px;
   padding: 0 20px;
   margin: 50px auto;
   font-size: 24px;
   text-align: center;
   font-weight: 300; }
+
+.blurb-right {
+  /* max-width: 620px; */
+  /* padding: 0 20px; */
+  /* margin: 50px auto; */
+  font-size: 24px;
+  text-align: right;
+  font-weight: 300; }
+}
 
 .skill-lockup {
   max-width: 540px;
@@ -836,7 +846,9 @@ footer {
     .skill-lockup .skill-unit {
       width: 220px; } }
 .section-work {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin-bottom: 50px;
+}
 
 /* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled. */
 .noscript {
@@ -907,9 +919,9 @@ footer {
     position: relative;
     display: block;
     float: left;
-    width: 25%;
+    width: 23%;
     cursor: pointer;
-    margin: 0;
+    margin: 1%;
    }
     .thumb-container label .thumb-unit {
       display: block;
@@ -919,7 +931,7 @@ footer {
         max-width: 100%; }
     @media screen and (max-width: 760px) {
       .thumb-container label {
-        width: 50%; } }
+        width: 48%; } }
     .thumb-container label .thumb-overlay {
       position: absolute;
       -webkit-box-align: center;
@@ -950,8 +962,8 @@ footer {
       background: rgba(217,14,123, 0.9);
       text-align: center; }
       .thumb-container label .thumb-overlay strong {
-        display: block;
-        padding: 0 9%;
+        /* display: block;
+        padding: 0 9%; */
         color: white;
         font-weight: 300;
         font-size: 24px;
@@ -1314,12 +1326,12 @@ form {
   background: #595959; /* For browsers that do not support gradients */
 }
 .header-logo {
-  background-image: url(../img/logolg.png);
+  background-image: url(../img/l2.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;
-  margin-top: 200px;
+  margin-top: 0px;
 }
 h2 {
   text-align: center;
@@ -1331,6 +1343,9 @@ h2 {
   float: left;
   display: inline-block;
   margin-right: 10px;
+}
+.thumb-overlay {
+  /* padding: 10px; */
 }
 /*.album-cover {
   display: block;
@@ -1406,7 +1421,7 @@ header h1 {
 
 /* Photo Carousel */
 #photoCarousel img {
-  max-height: 700px;
+  /* max-height: 700px; */
   margin: 0 auto;
   -webkit-box-shadow: 0px 0px 25px -8px rgba(0,0,0,1);
   -moz-box-shadow: 0px 0px 25px -8px rgba(0,0,0,1);
@@ -1427,6 +1442,7 @@ header h1 {
       background: rgba(255, 255, 255, 0);
       border: 0;
       font-weight: 700;
+      font-size: 1.2em;
 }
 #mainNav a {
   color: #D90E7B;
@@ -1437,7 +1453,7 @@ header h1 {
 
 
 header {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 @media (max-width: 767px) {
@@ -1451,10 +1467,38 @@ header {
 
   }
   header {
-    min-height: 100px;
+    /* min-height: 100px; */
   }
 }
 
 #newsflash a {
   margin: 10px;
+}
+#header {
+  height: 300px;
+}
+a-scene {
+  height: 300px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.foto-sig {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  padding: 10px;
+  color: white;
+}
+.thumbolina {
+  padding: 0px;
+  /* margin: 15px; */
+}
+.topper{
+  margin-top: 30px;
+}
+.more_this {
+  z-index: 100;
 }
